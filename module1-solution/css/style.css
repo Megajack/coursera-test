@@ -1,0 +1,54 @@
+body {
+  background: #eee;
+  font-family: Arial;
+}
+
+#container {
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*align-content: center;*/
+  /*justify-content:center;*/
+  padding: 100px;
+  text-align: center;
+}
+
+.form-input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+  margin: 0;
+  padding: 10px 10px;
+  width: 400px;
+}
+
+.form-submit {
+  background: none;
+  border: 1px solid #0275d8;
+  border-radius: 3px;
+  color: #0275d8;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  outline: none;
+  padding: 10px;
+}
+.form-submit:hover {
+  background: #0275d8;
+  color: #fff;
+}
+
+.message {
+  margin: 10px auto;
+  max-width: 200px;
+}
+.message.red {
+  border: 1px solid #a94442;
+  color: #a94442;
+  padding: 10px;
+}
+.message.green {
+  border: 1px solid #5cb85c;
+  color: #5cb85c;
+  padding: 10px;
+}
